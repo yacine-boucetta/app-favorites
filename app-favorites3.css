@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Yanone+Kaffeesatz&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(#0B090A,#161A1D,#660708,#A4161A,#BA181B,#E5383B,#B1A7A6,#D3D3D3);
+    position: relative;
+    display: flex;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+}
+
+p{
+padding: 5%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #161A1D;
+    width: 25%;
+}
+
+main{
+    border:solid #0B090A;
+    width: 50%;
+}
+
+.bloc1 {
+    display:flex;
+    align-items: center;
+    color: white;
+    padding: 5%;
+    background-color: #660708;
+}
+
+/*bloc2*/
+
+.bloc2 {
+    display: flex;
+    align-items: center;
+    color:white;
+    padding: 5%;
+    background-color: #A4161A;
+}
+
+/*bloc3*/
+.bloc3 {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    color: white;
+    background-color: #E5383B;
+
+}
+
+/*footer*/
+footer {
+    position: relative;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #D3D3D3;
+
+}
+
+footer img{
+    width: 100px;
+}
+
+
+    

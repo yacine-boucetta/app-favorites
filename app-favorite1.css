@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=IM+Fell+English+SC&display=swap');
+
 body {
 background-color:white;
 max-width: 1080px;
 margin-right: auto;
 margin-left: auto;
+font-family: 'Ephesis', cursive;
+font-family: 'IM Fell English SC', serif;
 }
 
 header {
@@ -11,12 +15,7 @@ header {
  justify-content: space-between;
 }
 
-img{
-    width: 60%;
-}
-
 p {
-height: auto;
 margin: 50px;
 }
 
@@ -27,6 +26,7 @@ display:flex;
 height: auto;
 background-color: lightcoral;
 align-items: center;
+color: white;
 }
 
 /*bloc2*/
@@ -34,17 +34,21 @@ align-items: center;
 display: flex;
 align-items: center;
 background-color:lightgray;
+color: rgb(224, 64, 216);
 }
 
 /*bloc3*/
 .bloc3 {
 display: flex;
-height: auto;
 background-color: lightsteelblue;
 align-items: center;
-height: 168px;
+padding: 2.5%;
+color: white;
 }
 
+.bloc3 image{
+    height: 500px;
+}
 /*footer*/
 footer {
     position: relative;
